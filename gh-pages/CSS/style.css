@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+  text-align: center;
+}
+.TextContent{
+  position: absolute;
+  left: 26.56%;
+  right: 26.46%;
+  top: 4.04%;
+  bottom: 44.92%;
+  width: 481px;
+  height: 392px;
+  background: #F7F5F9;
+  border-radius: 12px;
+  /*background: grey; /*---Чтоб глазки не болели---*/
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.15);
+}
+form{
+  margin-left: 40px;
+}
+.query{
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 168px;
+  height: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+  align-items: center;
+  color: #3B3D43;
+
+}
+div{
+  text-align: left;
+
+}
+input{
+  margin-bottom: 25px;
+  width: 401px;
+  height: 48px;
+  border-radius: 6px;
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 0 0 15px;
+
+  align-items: center;
+
+  color: #D0C9D6;
+}
+input:focus{
+  border: 1px solid #854FC8;
+}
+
+.Login{
+  margin-top: 85px;
+}
+
+button{
+  position: absolute;
+  width: 420px;
+  height: 48px;
+  text-align: center;
+  background: #6979F8;
+  border-radius: 6px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+button:hover{
+    border: 1px solid #854FC8;
+}
+/*осталось сделать все красиво*/
